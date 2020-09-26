@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatzy</title>
+    <link href="yatzy.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Yatzy</h1>
+    <img src="yatze.jpg" alt="Yatzy dice game" id="head_image">
+    <table>
+    <tr class="gray">
+    <th class="heading">Spelare</th>
+    <td><input type="text" id="player1"></td>
+    <td><input type="text" id="player2"></td>
+    <td><input type="text" id="player3" ></td>
+    <td><input type="text" id="player4" ></td>
+    </tr>
+    <tr>
+   <td>Ettor/ones</td>
+    <td><input type="number"  id="player_1ones"></td>
+    <td><input type="number"  id="player_2ones"></td>
+    <td><input type="number"  id="player_3ones"></td>
+    <td><input type="number"  id="player_4ones"></td>
+    </tr>ones
+    <tr>
+    <td>Tvåor/Twos</td>
+    <td><input type="number"  id="player_1twos"></td>
+    <td><input type="number"  id="player_2twos"></td>
+    <td><input type="number"  id="player_3twos"></td>
+    <td><input type="number"  id="player_4twos"></td>
+    </tr>
+    <tr>
+    <td>Treor/Threes</td>
+    <td><input type="number" id="player_1threes"></td>
+    <td><input type="number" id="player_2threes"></td>
+    <td><input type="number" id="player_3threes"></td>
+    <td><input type="number" id="player_4threes"></td>
+    </tr>
+    <tr>
+        <td>Fyror/Fours</td>
+        <td><input type="number"  id="player_1fours"></td>
+        <td><input type="number"  id="player_2fours"></td>
+        <td><input type="number"  id="player_3fours"></td>
+        <td><input type="number"  id="player_4fours"></td>
+    </tr>
+    <tr>
+        <td>Femmor/Fives</td>
+        <td><input type="number" id="player_1fives" ></td>
+        <td><input type="number" id="player_2fives" ></td>
+        <td><input type="number" id="player_3fives" ></td>
+        <td><input type="number" id="player_4fives" ></td>
+    </tr>
+    <tr>
+        <td>Sexor/sixes</td>
+        <td><input type="number" id="player_1sixes" ></td>
+        <td><input type="number" id="player_2sixes" ></td>
+        <td><input type="number" id="player_3sixes" ></td>
+        <td><input type="number" id="player_4sixes" ></td>
+    </tr>
+    <tr class="gray">
+        <th class="heading">Summan/sum</th>
+        <td id="player1_sum"></td>
+        <td id="player2_sum"></td>
+        <td id="player3_sum"></td>
+        <td id="player4_sum"></td>
+        </tr>
+        <tr class="gray">
+        <th>Bonus</th>
+        <td id="player1_bonus"></td>
+        <td id="player2_bonus"></td>
+        <td id="player3_bonus"></td>
+        <td id="player4_bonus"></td>
+        </tr>
+        <tr>
+        <td>Par/Pair</td>
+        <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+        </tr>
+        <tr>
+        <td>Två par/Two Pair</td>
+        <td><input type="number"  ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+        </tr>
+        <tr>
+        <td>Tretal/Three of a kind</td>
+        <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+        </tr>
+        <tr>
+        <td>Fyratal/Four of a kind</td>
+        <td><input type="number"  ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+        </tr>
+        <tr>
+        <td>Liten stege/small straight</td>
+        <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+        </tr>
+        <tr><td>Liten stege/small straight</td>
+            <td><input type="number"  ></td>
+            <td><input type="number" ></td>
+            <td><input type="number" ></td>
+            <td><input type="number" ></td>
+        </tr>
+        <tr>
+        <td>Kåk/Full house</td>
+        <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+        </tr>
+        <tr>
+        <td>Chans/Chance</td>
+        <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+    <td><input type="number" ></td>
+        </tr>
+        <tr>
+        <td>Yatzy</td>
+        <td><input type="number" ></td>
+        <td><input type="number" ></td>
+        <td><input type="number" ></td>
+        <td><input type="number" ></td>
+        </tr>
+        <tr class="gray">
+        <th>Totalt/Total</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+    </table>
+    <div class="images">
+    <img src="dice_img_0.png" id="image_1">
+    <img src="dice_img_0.png" id="image_2">
+    <img src="dice_img_0.png" id="image_3">
+    <img src="dice_img_0.png" id="image_4">
+    <img src="dice_img_0.png" id="image_5">
+    <button type="button" id="roll_dice">Roll Dice</button><br>
+</div>
+    <form>
+    <div class="keep_value">
+    <input type="checkbox" id="dice_1">
+    <input type="checkbox" id="dice_2">
+    <input type="checkbox" id="dice_3">
+    <input type="checkbox" id="dice_4">
+    <input type="checkbox" id="dice_5">
+</div>
+</form>
+  
+<script src="yatzy.js"></script>
+</body>
+</html>

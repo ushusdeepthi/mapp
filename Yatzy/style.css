@@ -1,0 +1,73 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+
+    color: rgb(15, 61, 34);
+    font-size: 3em;
+    margin: 0.1em;
+}
+
+table {
+    width: 30em; 
+    border: 2px solid black; 
+    border-collapse: collapse; 
+}
+
+.yatsySida  {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    text-align: left;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid black; 
+}
+
+th {
+    border: 2px solid black; 
+}
+
+input {
+    border: none;
+    width: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+td:nth-child(even) input, td:nth-child(even) {
+    background-color: rgb(205, 255, 226);
+}
+
+td:nth-child(odd) input, td:nth-child(odd) {
+    background-color: rgb(238, 255, 245);
+}
+
+.lightGrey input, .lightGrey {
+    background-color: rgb(76, 146, 109);
+}
+
+.darkGrey {
+    background-color: rgb(60, 117, 87);
+    color: white; 
+}
+#keep_value{
+    width:500px;
+    margin:0px;
+    
+}
+#keep_value input[type="checkbox"]{
+    width:20px;
+    margin:0px 23px;
+}

@@ -1,0 +1,74 @@
+body{
+    margin:20px;
+    padding:10px;
+    border: 5px double black;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size:48px;
+    color:goldenrod;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+}
+img#head_image{
+    width:200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+table{
+    width: 500px;
+    border-collapse:collapse;
+    margin:30px auto;
+}
+
+th, td{
+    border: 1px solid black;
+    padding:2px;
+}
+
+th{
+    background-color: rgb(119, 116, 116);
+    width:200px;
+    text-align:left;
+}
+.heading{
+    font-weight:bold;
+}
+ td input{
+    width:100px;
+    text-align:center;
+    font-weight: bold;
+    background-color:transparent;
+    border:none;
+}
+
+td:nth-child(even){
+    background-color:darkgrey;
+}
+.gray td{
+    background-color:lightgray ;
+}
+
+
+.keep_value{
+    width:500px;
+    margin-left:300px;
+}
+input[type="checkbox"]{
+    margin:0px 40px;}
+
+.images{
+    width:600px;
+    margin:0px auto;
+}
+.images img{
+    width:70px;
+    height:auto;
+    margin:0px 12px;
+
+}
